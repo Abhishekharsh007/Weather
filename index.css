@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Lobster', cursive;
+    background-image: url('https://source.unsplash.com/2000x1600/?weather,landscape');
+}
+
+.Container-Box {
+    color: #842920;
+    background: #000000;
+    padding: 2em;
+    border-radius: 30px;
+    width: 100%;
+    max-width: 400px;
+}
+
+.Search-Box {
+    color: aliceblue;
+}
+
+.weather {
+    animation: color-change 5s infinite;
+}
+
+@keyframes color-change {
+    10% { color: black; }
+    10% { color: crimson }
+    10% { color: red; }
+    20% { color: aqua; }
+    10% { color: brown; }
+}
